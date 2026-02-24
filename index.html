@@ -35,12 +35,9 @@
     <!-- Preload LCP image -->
     <link rel="preload" as="image" type="image/webp" href="/photo/STEVE%20COVER.webp" fetchpriority="high" />
 
-    <!-- Fonts - non-blocking load -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800;900&display=swap" />
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800;900&display=swap" rel="stylesheet" /></noscript>
+    <!-- Preload self-hosted font -->
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/lexend-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/lexend-latin-ext.woff2" crossorigin />
   </head>
 
   <body>
