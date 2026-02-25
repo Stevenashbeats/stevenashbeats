@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import NewsSection from "@/components/NewsSection";
 import AboutSection from "@/components/AboutSection";
 import PhotoGallery from "@/components/PhotoGallery";
 import MusicSection from "@/components/MusicSection";
@@ -42,6 +43,7 @@ const Index = () => {
     <main className="min-h-screen bg-black text-foreground overflow-hidden">
       <Navbar />
       <Hero />
+      <NewsSection />
       <AboutSection />
       <PartnersSection />
       <AkaiSection />
